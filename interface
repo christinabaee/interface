@@ -19,8 +19,8 @@ function draw() {
     r.update()
   }
   
-  potentiometer = map(potValue,0,1023,1,10)
-  for (let i=0;i<potentiometer;i++){
+  //potentiometer = map(potValue,0,1023,1,10)
+  for (let i=0;i<5;i++){
     rains.push(new Rain(random(width),0))
   }
   print(rains.length)
